@@ -22,7 +22,7 @@ im_lego = legofy(im)
 _ = pyplot.imshow(im_lego, interpolation='none', origin='lower')
 ```
 
-![Random](https://github.com/oliveirarodolfo/legofy/blob/master/images/rand-lego.png)
+![Random](http://oliveirarodolfo.github.io/legofy/images/rand-lego.png)
 
 But I want to do it with my profile picture, how can I do it?!
   
@@ -41,7 +41,7 @@ im_lego = legofy(im)
 _ = pyplot.imshow(im_lego, interpolation='none', origin='lower')
 ```
 
-![Monalisa](https://github.com/oliveirarodolfo/legofy/blob/master/images/mona-lego.png)
+![Monalisa](http://oliveirarodolfo.github.io/legofy/images/mona-lego.png)
 
 About the developer
 -------------------
