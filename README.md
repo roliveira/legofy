@@ -1,9 +1,6 @@
 legofy
 ======
 
-
-.. contents::
-
 What is legofy?
 ---------------
 
@@ -46,9 +43,11 @@ _ = pyplot.imshow(im_lego, interpolation='none', origin='lower')
 
 ![Monalisa](https://github.com/oliveirarodolfo/legofy/blob/master/images/mona-lego.png)
 
-Send a hi!
-----------
-    hi@roliveira.me
+About the developer
+-------------------
+
+Send a [hi](mailto:hi@roliveira.me)!
+
 
 License information
 -------------------
