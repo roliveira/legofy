@@ -1,4 +1,4 @@
-legofy
+[legofy](http://oliveirarodolfo.github.io/legofy)
 ======
 
 What is legofy?
@@ -36,7 +36,7 @@ import cStringIO
 url = 'http://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/161px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg'
 im = misc.imread(cStringIO.StringIO(urllib.urlopen(url).read()))
 im = misc.imresize(im, (50, 33), interp='nearest')
->>> im = 1-(255-im)/(255)
+im = 1-(255-im)/(255)
 im_lego = legofy(im)
 _ = pyplot.imshow(im_lego, interpolation='none', origin='lower')
 ```
