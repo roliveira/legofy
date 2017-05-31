@@ -1,0 +1,8 @@
+title: Legofy
+description: A python function to convert an image into a lego-like image.
+google_analytics: UA-56328062-1
+show_downloads: true
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-mentions
