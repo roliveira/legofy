@@ -4,7 +4,7 @@ legofy
 What is legofy?
 ---------------
 
-It's a simple python function to convert an image into a a lego-like image. It started long ago as a practical exercise to learn some simple Python functionality (*e.g.* [PyPI](https://pypi.python.org/pypi) packaging) but it's now retired in favor of https://github.com/JuanPotato/Legofy. 
+It's a simple python function to convert an image into a a lego-like image. It started long ago as a practical exercise to learn some simple Python functionality (*e.g.* [PyPI](https://pypi.python.org/pypi) packaging) but it's now retired in favor of [JuanPotato](https://github.com/JuanPotato)'s [Legofy](https://github.com/JuanPotato/Legofy). 
 
 
 Usage
@@ -22,7 +22,7 @@ im_lego = legofy(im)
 _ = pyplot.imshow(im_lego, interpolation='none', origin='lower')
 ```
 
-![Random](http://oliveirarodolfo.github.io/legofy/images/rand-lego.png)
+![Random](https://raw.githubusercontent.com/roliveira/legofy/master/images/rand-lego.png)
 
 But I want to do it with my profile picture, how can I do it?!
   
@@ -41,11 +41,10 @@ im_lego = legofy(im)
 _ = pyplot.imshow(im_lego, interpolation='none', origin='lower')
 ```
 
-![Monalisa](http://oliveirarodolfo.github.io/legofy/images/mona-lego.png)
+![Monalisa](https://raw.githubusercontent.com/roliveira/legofy/master/images/mona-lego.png)
 
 
 License information
 -------------------
 
 See the file [LICENSE](https://github.com/oliveirarodolfo/legofy/blob/master/LICENSE) for information on this software, terms & conditions for usage and a disclaimer of all warranties.
-
